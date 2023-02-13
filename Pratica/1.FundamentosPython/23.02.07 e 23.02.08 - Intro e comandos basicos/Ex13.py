@@ -1,10 +1,11 @@
-num1 = int(input("Insira o primeiro número inteiro positivo:"))
+num1 = int(input("Insira o primeiro número inteiro positivo: "))
 while num1 < 1:
-    print("Inválido. Insira um número inteiro positivo: ")
+    num1 = int(input("Inválido. Insira um número inteiro positivo: "))
 
-num2 = int(input("Insira o segundo número inteiro:"))
+num2 = int(input("Insira o primeiro número inteiro positivo: "))
 while num2 < 1:
-    print("Inválido. Insira um número inteiro positivo: ")
+    num2 = int(input("Inválido. Insira um número inteiro positivo: "))
+
 
 maior = 0
 mdc = 1
