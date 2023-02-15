@@ -46,9 +46,11 @@ def serie (n, nu = 2, de = 500):
     res = nu/de
     if n > 1:
         if n % 2 == 0:
-            res += -5/2 * serie (n-1, nu, de - 10*n)
+            res += serie (n-1, -5, de - 10*n)
         else:
-            res += serie (n-1, nu, de - 10*n)
+            res += serie (n-1, 2, de - 10*n)
+    else:
+        2/500
     print (res)
     return res
 
