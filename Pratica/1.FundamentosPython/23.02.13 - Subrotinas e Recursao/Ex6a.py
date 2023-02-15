@@ -25,7 +25,7 @@ while (i<=N):
         aSomar = 2/(500 - (i-1)*10)
     else:
         aSomar = -5/(500 - (i-1)*10)
-    print(aSomar)
+#    print(aSomar)
     S = S + aSomar
     i+=1
 
@@ -46,12 +46,12 @@ def serie (n, nu = 2, de = 500):
     res = nu/de
     if n > 1:
         if n % 2 == 0:
-            res += serie (n-1, -5, de - 10*n)
+            nu = -5
+            de = 500 - 10 * (n-1)
+            res = nu/de + serie(n-1)
         else:
-            res += serie (n-1, 2, de - 10*n)
-    else:
-        2/500
-    print (res)
+            de = 500 - 10 * (n-1)
+            res = nu/de + serie(n-1)
     return res
 
 N = int(input("Insira N:"))
