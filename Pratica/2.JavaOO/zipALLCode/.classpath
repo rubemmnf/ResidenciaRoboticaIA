@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Aliasing/src"/>
+	<classpathentry kind="src" path="ArrayVsArrayList/src"/>
+	<classpathentry kind="src" path="ClasseContaAbstrata/src"/>
+	<classpathentry kind="src" path="DynamicDispatch/src"/>
+	<classpathentry kind="src" path="Encapsulation/src"/>
+	<classpathentry kind="src" path="EquivalenceTest/src"/>
+	<classpathentry kind="src" path="InheritanceHierarchies/src"/>
+	<classpathentry kind="src" path="InstanceXStaticMembers/src"/>
+	<classpathentry kind="src" path="JavaGenerics/src"/>
+	<classpathentry kind="src" path="JavaInterface/src"/>
+	<classpathentry kind="src" path="OverridingMethods/src"/>
+	<classpathentry kind="src" path="Packages/src"/>
+	<classpathentry kind="src" path="Polymorphism/src"/>
+	<classpathentry kind="src" path="PoolObjects/src"/>
+	<classpathentry kind="src" path="SaldoInsuficienteExceptionHandling/src"/>
+	<classpathentry kind="output" path="Aliasing/bin"/>
+</classpath>

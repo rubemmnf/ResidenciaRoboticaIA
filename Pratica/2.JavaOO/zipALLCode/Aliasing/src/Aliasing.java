@@ -28,16 +28,16 @@ public class Aliasing {
 //		x = inc(x);
 //		System.out.println(x);
 //		
-		ArrayList<String> list1 = new ArrayList<>();
-		ArrayList list2 = new ArrayList<>();
+//		ArrayList<String> list1 = new ArrayList<>();
+//		ArrayList list2 = new ArrayList<>();
 //		list1.add("Java");
 //		list1.add("C#");
-//		
+		
 //		System.out.println(list1);
 		
-		String s1 = new String("Java");
-		String s2 = "Java";
-		String s3 = "Java";
+//		String s1 = new String("Java");
+//		String s2 = "Java";
+//		String s3 = "Java";
 		
 //		System.out.println(s1.intern() == s2);
 //		System.out.println(s1.intern() == s3);
@@ -52,12 +52,12 @@ public class Aliasing {
 //			
 //		}
 		
-		int x = 10;
-		Integer y = x;
-		System.out.println(System.identityHashCode(y));
-		y++;
-		System.out.println(System.identityHashCode(y));
-	
+//		int x = 10;
+//		Integer y = x;
+//		System.out.println(System.identityHashCode(y));
+//		y++;
+//		System.out.println(System.identityHashCode(y));
+//	
 		
 	}
 
