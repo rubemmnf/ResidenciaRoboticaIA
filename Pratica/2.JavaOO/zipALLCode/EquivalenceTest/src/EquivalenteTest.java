@@ -42,7 +42,7 @@ public class EquivalenteTest {
 		
 		String s = "Java";
 		
-		s = s.replace("b","*");
+//		s = s.replace("b","*");
 		
 //		System.out.println(s);
 		
@@ -54,14 +54,18 @@ public class EquivalenteTest {
 		list2.add("C#");
 		list2.add(s);
 				
-//		System.out.println(list1 == list2);
-//		System.out.println(list1.equals(list2));
+		System.out.println(list1 == list2);
+		System.out.println(list1.equals(list2));
 		
-//		System.out.println(s.contains("av"));
-//		System.out.println(list1.contains("Java"));
-//		System.out.println(list2.contains(s));
-//		
-//		System.out.println(list1.containsAll(list2));
+		System.out.println(s.contains("av"));
+		System.out.println(list1.contains("Java"));
+		System.out.println(list2.contains(s));
+		
+		System.out.println(list1.containsAll(list2));
+		
+		System.out.println(list1);
+		System.out.println(list2);
+		
 
 	}
 
