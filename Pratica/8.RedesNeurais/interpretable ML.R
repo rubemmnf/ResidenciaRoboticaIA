@@ -1,5 +1,10 @@
-
-
+library(readr)
+library(nnet)
+library (e1071)
+library(iml)
+library(partykit)
+library(rpart)
+library(rpart.plot)
 
 
 # separando dados de treino e teste
@@ -20,7 +25,7 @@ model = nnet(class ~., data = dados_train, size = 5, maxit = 2000)
 
 preds = predict(model,dados_test,type = "class")
 
-###### produzindo a matriz de confusão
+###### produzindo a matriz de confus?o
 matrix_conf = table(preds, dados_test$class)
 
 ###### calculando a acuracia
